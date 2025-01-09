@@ -119,6 +119,7 @@ code {
   justify-content: space-around;
   padding-block: 20px;
   border-bottom: 2px dotted #dcdcdc;
+  flex-wrap: wrap;
 }
 .headtext {
   color: #0065a7;
@@ -218,4 +219,12 @@ code {
   ;
       align-items: center;
       gap: 10px;
+}
+
+.FeedbackListView{
+  display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+    border-bottom: dotted 1px grey;
 }

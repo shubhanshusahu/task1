@@ -1,8 +1,9 @@
 import React from 'react'
 
-const FeedbackBox = ({basis,count,totalFeedbackCount}) => {
+const FeedbackBox = ({num, basis,count,totalFeedbackCount,showCard=true}) => {
   return (
-    <div className='FeedbackBox'>
+    <div className={showCard ?'FeedbackBox' : 'FeedbackListView'}>
+      {showCard ?'' : num}
         <div className='feedbackBasis'>
             {basis}
         </div>

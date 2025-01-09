@@ -4,7 +4,7 @@ import React from 'react'
 export const ratingBasis = [
     {
         title: 'Skills and Qualifications',
-        score: 1,
+        score: 5,
         id: 'skills'
     },
     {
